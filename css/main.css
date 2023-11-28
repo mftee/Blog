@@ -62,9 +62,7 @@ margin-left: auto;
   height: 93.5vh;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  /* grid-template-rows: 2fr 1fr; */
   grid-gap: 1rem;
-  /* background: #000; */
 }
 
 .main-heading h1 {
@@ -78,7 +76,6 @@ margin-left: auto;
 }
 
 .aside {
-  /* display: none; */
   grid-column: 10 / -1 ;
 }
 
@@ -215,7 +212,6 @@ font-size: 11px;
   height: 90px ;
   align-items: end;
   text-align: right;
-  /* border-radius: 15px; */
   display: none;
 }
 
@@ -236,12 +232,9 @@ margin-top: 25px;
   background: #fff;
   border-radius: 25px;
   width:120px;
-  /* height: 300px; */
   text-align: center;
-  /* display: inline; */
   padding: 15px;
- margin:95px auto;
- 
+  margin:95px auto;
 }
 
 .right-aside-2 i {
